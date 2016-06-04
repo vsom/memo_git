@@ -1,0 +1,35 @@
+git init : pour créer un nouveau dépôt.
+
+git clone : créer une copie du dépôt local.
+
+[ WORKING DIR. ->add-> INDEX (stage) ->commit-> HEAD ]
+
+git add : ajouter à l'index.
+
+git commit -m " " : pour valider les changements et l'ajouter au HEAD.
+
+git push origin master : pour les envoyer au dépôt distant.
+
+git remote add origin <server> : pour connecter au dépôt sur un serveur distant et si pas de clone du dépôt existant.
+
+==============================================================
+
+git checkout -b feature_x : créer une nouvelle banche nommée "feature_x" et passer dessus pour l'utiliser.
+
+git checkout master : retourner sur la branche principale.
+
+git branch -d feature_x : pour supprimer la branche.
+
+git push origin <branch> : envoyer une branche vers un dépôt existant pour rendre disponible pour les autres.
+
+==============================================================
+
+git pull origin master : pour récupérer et fusionner les changements distants.
+
+git merge <branch> : pour une autre branche avec la branche active.
+
+git diff <source_branch> <target_branch>
+
+git status
+
+git show
